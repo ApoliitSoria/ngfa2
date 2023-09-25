@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{ padding: 0px;  margin: 0px;}
+        #navbar{
+            border: 1px solid black;
+            padding: 15px;
+            margin: 5px;
+            text-align: center;
+            background-color: firebrick;
+            background-image}
+
+        #links{display: inline;}
+        #navbar #links a{ 
+            text-decoration: none;
+            padding: 5px;
+            margin: 5px;
+            border: 1px solid black;
+            opacity: .80;
+            transition: 0.4s;        
+        }
+        #navbar #links a:hover{opacity: 1; transition: 0.4s;}    
+        #yt{background-color: red; color: white;}
+        #fb{background-color: darkblue; color: white;}
+        #dc{background-color: darkslateblue; color: white;}
+        #rd{background-color: chocolate; color: white;}
+        #twt{background-color: rgb(70, 70, 70); color: white;}
+        .rounded{border-radius: 5px;}
+
+    </style>
+</head>
+<body>
+    <div id="navbar" class="rounded">
+        <div id="links"><a href="youtube.com" id="yt">Youtube</a></div>
+        <div id="links"><a href="facebook.com" id="fb">Facebook</a></div>
+        <div id="links"><a href="discord.gg" id="dc">Discord</a></div>
+        <div id="links"><a href="reddit.com" id="rd">Reddit</a></div>
+        <div id="links"><a href="x.com" id="twt">X</a></div>
+    </div>
+</body>
+</html>
